@@ -1,12 +1,12 @@
-# Python virtual environment (created by venv)
+# Python virtual environment
 Include/
 Lib/
 Scripts/
 share/
 pyvenv.cfg
-
-# data and Jupyter checkpoints
-data/
-Data/
+# Jupyter
 .ipynb_checkpoints/
+# downloaded structures (re-created by the Module 4 notebook)
 structures/
+# keys - never commit
+.env
