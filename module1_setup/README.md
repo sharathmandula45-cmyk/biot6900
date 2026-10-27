@@ -11,7 +11,11 @@
   - **UniProt** (REST API): retrieved P04637, the human tumour suppressor p53.
   - **PDB** (RCSB REST API): retrieved 1TUP, a p53 core domain structure bound to DNA.
   - **GWAS Catalog** (EBI REST API): looked up rs7412, an APOE missense variant that defines the ε2 allele.
-- **Part D – Multi-omics datasets:** deferred to Week 2, as confirmed by Prof. Prabakaran by email (Sep 14).
-
+- **Part D – Multi-omics datasets:** loaded three Alzheimer's disease datasets with pandas and confirmed their shapes:
+  - `ad_transcriptomics.tsv` – (54675, 8): GEO2R differential expression for GSE5281 (AD vs. control hippocampus).
+  - `ad_proteomics.tsv` – (13541, 4): AD vs. control protein-level changes from Johnson et al. 2022 (TMT-MS).
+  - `ad_gwas.tsv` – (7410, 38): GWAS Catalog associations for Alzheimer's disease.
 ## Problems and fixes
-- Part D's loading cell raises `FileNotFoundError` because no dataset was assigned for Week 1; this was expected (see above).
+- Part D was originally deferred to Week 2 (confirmed by Prof. Prabakaran by email, Sep 14), so the loading cell first raised `FileNotFoundError`. I later completed it using the Alzheimer's multi-omics files from Module 2.
+- The files are tab-separated, so I loaded them with `sep="\t"`.
+- The edited notebook was first saved in a backup folder instead of the Git repo, so GitHub Desktop showed no changes. Fixed by copying it into the repo's `module1_setup/` folder before committing.
