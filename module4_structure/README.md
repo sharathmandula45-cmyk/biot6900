@@ -18,4 +18,4 @@
 
 ## What didn't work / notes
 - fpocket is not available for Windows, so I installed it with conda (Miniforge) inside WSL Ubuntu and ran `fpocket -f` on both AlphaFold models in `structures/`. The notebook then reads the saved fpocket output folders (Step 6 skips re-running fpocket when they exist).
-- (add anything else that went wrong, or delete this line)
+- Because `structures/` is not committed, re-running the notebook re-downloads the AlphaFold and PDB files, but Step 6 needs fpocket (Mac/Linux, WSL or the Explorer cluster) to regenerate the pocket folders.
