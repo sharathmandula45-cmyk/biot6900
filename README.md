@@ -10,6 +10,8 @@
 | 3 | `module3_plm/` | Target triage with protein language models | `targets_ad_w3.csv`, report |
 | 4 | `module4_structure/` | Structure prediction & druggability | `structure_assessment_ad.csv`, report |
 | 5 | `module5_variants/` | Pharmacogenomic variant interpretation (CYP2C19) | `pgx_classified_CYP2C19.csv`, report |
+| Portfolio 1 | `portfolio1_target_discovery/` | Multi-omics target discovery package (Labs 2–4) | `BIOT6900_Portfolio1_SharathMandula.pdf`, Figures 1–4 |
+
 Each module folder has its own `README.md`, notebook(s), report, and a `data/` folder next to the notebook.
 ## How to run
 1. `conda activate biot6900`
