@@ -1,4 +1,6 @@
-﻿# Module 3 – Target triage with protein language models
+﻿**Name:** Sharath Mandula
+**Disease:** Alzheimer's disease (AD)
+# Module 3 – Target triage with protein language models
 ## Files
 - `BIOT6900_Module3_Assignment.ipynb` – assignment notebook
 - `targets_ad_w3.csv` – re-ranked targets (hand-off to Module 4)
