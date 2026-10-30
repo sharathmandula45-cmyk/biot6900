@@ -1,0 +1,68 @@
+src,rel,dst,pvalue,source,intergenic,mapped_gene,copies
+SAMHD1,ASSOCIATED_WITH,Alzheimer's disease,2e-36,Module 2: GWAS + RNA + protein,,,
+PDZD2,ASSOCIATED_WITH,Alzheimer's disease,1e-21,Module 2: GWAS + RNA + protein,,,
+ZMYM2,ASSOCIATED_WITH,Alzheimer's disease,3e-19,Module 2: GWAS + RNA + protein,,,
+APOE,ASSOCIATED_WITH,Alzheimer's disease,1e-295,Module 2: GWAS + RNA + protein,,,
+ASAP1,ASSOCIATED_WITH,Alzheimer's disease,2e-13,Module 2: GWAS + RNA + protein,,,
+CACNG8,ASSOCIATED_WITH,Alzheimer's disease,2e-10,Module 2: GWAS + RNA + protein,,,
+COL11A1,ASSOCIATED_WITH,Alzheimer's disease,1e-09,Module 2: GWAS + RNA + protein,,,
+MAPT,ASSOCIATED_WITH,Alzheimer's disease,9e-16,Module 2: GWAS + RNA + protein,,,
+APOC1,ASSOCIATED_WITH,Alzheimer's disease,1e-295,Module 2: GWAS + RNA + protein,,,
+RHOJ,ASSOCIATED_WITH,Alzheimer's disease,6e-11,Module 2: GWAS + RNA + protein,,,
+NDUFA10,ASSOCIATED_WITH,Alzheimer's disease,1e-10,Module 2: GWAS + RNA + protein,,,
+WNK2,ASSOCIATED_WITH,Alzheimer's disease,4e-16,Module 2: GWAS + RNA + protein,,,
+CLU,ASSOCIATED_WITH,Alzheimer's disease,1e-47,Module 2: GWAS + RNA + protein,,,
+FARP2,ASSOCIATED_WITH,Alzheimer's disease,1.9999999999999998e-42,Module 2: GWAS + RNA + protein,,,
+NUMA1,ASSOCIATED_WITH,Alzheimer's disease,1e-14,Module 2: GWAS + RNA + protein,,,
+APP,ASSOCIATED_WITH,Alzheimer's disease,2e-14,Module 2: GWAS + RNA + protein,,,
+GRIN2B,ASSOCIATED_WITH,Alzheimer's disease,3e-06,Module 2: GWAS + RNA + protein,,,
+SORL1,ASSOCIATED_WITH,Alzheimer's disease,1e-22,Module 2: GWAS + RNA + protein,,,
+FERMT2,ASSOCIATED_WITH,Alzheimer's disease,8e-16,Module 2: GWAS + RNA + protein,,,
+ACHE,ASSOCIATED_WITH,Alzheimer's disease,,pharmacology only,,,
+Alzheimer's disease,HAS_PHENOTYPE,Dementia,,,,,
+Alzheimer's disease,HAS_PHENOTYPE,Memory impairment,,,,,
+Alzheimer's disease,HAS_PHENOTYPE,Cognitive impairment,,,,,
+Alzheimer's disease,HAS_PHENOTYPE,Cerebral atrophy,,,,,
+Alzheimer's disease,HAS_PHENOTYPE,Neurofibrillary tangles,,,,,
+Aicardi-Goutieres syndrome,HAS_PHENOTYPE,Cognitive impairment,,,,,
+Aicardi-Goutieres syndrome,HAS_PHENOTYPE,Cerebral atrophy,,,,,
+SAMHD1,ASSOCIATED_WITH,Aicardi-Goutieres syndrome,,"Mendelian (AGS5, OMIM)",,,
+JAK1,ASSOCIATED_WITH,Aicardi-Goutieres syndrome,,drug-target evidence (baricitinib treats AGS),,,
+Baricitinib,TARGETS,JAK1,,,,,
+APP,PARTICIPATES_IN,Amyloid fiber formation,,,,,
+APOE,PARTICIPATES_IN,"Plasma lipoprotein assembly, remodeling, and clearance",,,,,
+APOC1,PARTICIPATES_IN,"Plasma lipoprotein assembly, remodeling, and clearance",,,,,
+CLU,PARTICIPATES_IN,Regulation of Complement cascade,,,,,
+SAMHD1,PARTICIPATES_IN,Nucleotide catabolism,,,,,
+JAK1,PARTICIPATES_IN,Interferon alpha/beta signaling,,,,,
+CACNG8,PARTICIPATES_IN,Trafficking of AMPA receptors,,,,,
+GRIN2B,PARTICIPATES_IN,Activation of NMDA receptors and postsynaptic events,,,,,
+ACHE,PARTICIPATES_IN,Neurotransmitter clearance,,,,,
+NDUFA10,PARTICIPATES_IN,Complex I biogenesis,,,,,
+COL11A1,PARTICIPATES_IN,Collagen formation,,,,,
+RHOJ,PARTICIPATES_IN,RHO GTPase cycle,,,,,
+FARP2,PARTICIPATES_IN,RHO GTPase cycle,,,,,
+SORL1,PARTICIPATES_IN,Endosomal sorting (GO grouping),,,,,
+Donepezil,TARGETS,ACHE,,,,,
+Rivastigmine,TARGETS,ACHE,,,,,
+Galantamine,TARGETS,ACHE,,,,,
+Memantine,TARGETS,GRIN2B,,,,,
+Lecanemab,TARGETS,APP,,,,,
+Donanemab,TARGETS,APP,,,,,
+Semorinemab,TARGETS,MAPT,,,,,
+rs11136000,OCCURS_IN,CLU,,GWAS Catalog MAPPED_GENE (my Module 2 file),False,CLU,
+rs11218343,OCCURS_IN,SORL1,,GWAS Catalog MAPPED_GENE (my Module 2 file),False,SORL1,
+rs17125944,OCCURS_IN,FERMT2,,GWAS Catalog MAPPED_GENE (my Module 2 file),False,FERMT2,
+rs7412,OCCURS_IN,APOE,,GWAS Catalog MAPPED_GENE (my Module 2 file),False,APOE,
+rs429358,OCCURS_IN,APOE,,GWAS Catalog MAPPED_GENE (my Module 2 file),False,APOE,
+PT02,CARRIES,rs429358,,,,,1.0
+PT03,CARRIES,rs429358,,,,,1.0
+PT04,CARRIES,rs7412,,,,,1.0
+PT07,CARRIES,rs429358,,,,,1.0
+PT08,CARRIES,rs7412,,,,,1.0
+PT12,CARRIES,rs429358,,,,,1.0
+PT13,CARRIES,rs7412,,,,,1.0
+PT18,CARRIES,rs7412,,,,,1.0
+PT26,CARRIES,rs429358,,,,,1.0
+PT29,CARRIES,rs7412,,,,,1.0
+PT30,CARRIES,rs429358,,,,,1.0

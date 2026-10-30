@@ -1,0 +1,84 @@
+name,kind,ensembl,gwas_p,rna_lfc,prot_lfc,druggability,m2_rank,m2_score,rna_p,prot_p,concordant,m3_rank,p_sm,p_ab,uniprot,pdb_id,af_mean_plddt,best_pocket_score,structure_call,status,pgs_weight,effect_allele,source,esm2_score,age,apoe_genotype,prs_percentile,ancestry,prs_z
+Alzheimer's disease,disease,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SAMHD1,gene,ENSG00000101347,2e-36,-3.65,0.054332233,0.824,1.0,0.933,0.000137,0.004120522,False,1.0,0.824,0.003,Q9Y3Z3,4BZC,88.2,0.483,Structure supports a small-molecule pocket,,,,,,,,,,
+PDZD2,gene,ENSG00000133401,1e-21,-2.29,-0.049011688,0.02,2.0,0.898,0.0149,0.000113641,True,5.0,0.02,0.002,O15018,,,,,,,,,,,,,,
+ZMYM2,gene,ENSG00000121741,3e-19,-2.06,0.05280612,0.04,3.0,0.896,0.00322,0.054923977,False,4.0,0.04,0.004,Q9UBW7,,,,,,,,,,,,,,
+APOE,gene,ENSG00000130203,1e-295,1.17,0.146638078,0.016,4.0,0.891,0.125,2.56e-06,True,8.0,0.002,0.016,P02649,2L7B,75.5,0.465,Possible but uncertain,,,,,,,,,,
+ASAP1,gene,ENSG00000153317,2e-13,-1.48,-0.083598759,0.193,5.0,0.871,0.00937,7.55e-14,True,3.0,0.193,0.002,Q9ULH1,,,,,,,,,,,,,,
+CACNG8,gene,ENSG00000142408,2e-10,-1.76,-0.096088456,0.38,6.0,0.867,0.0776,3.39e-09,True,2.0,0.38,0.001,Q8WXS5,,,,,,,,,,,,,,
+COL11A1,gene,ENSG00000060718,1e-09,-1.78,0.365046108,0.1,7.0,0.863,0.0136,0.001053604,False,7.0,0.1,0.0,P12107,,,,,,,,,,,,,,
+MAPT,gene,ENSG00000186868,9e-16,-1.14,0.180394042,0.006,8.0,0.86,0.00237,0.000136722,False,14.0,0.006,0.001,P10636,,,,,,,,,,,,,,
+APOC1,gene,ENSG00000130208,1e-295,-1.04,-0.093455501,0.248,9.0,0.859,0.12,0.155876277,True,6.0,0.001,0.248,P02654,,,,,,,,,,,,,,
+RHOJ,gene,ENSG00000126785,6e-11,-1.5,0.10557608,0.034,10.0,0.856,0.145,0.053089251,False,13.0,0.034,0.001,Q9H4E5,,,,,,,,,,,,,,
+NDUFA10,gene,ENSG00000130414,1e-10,1.83,-0.070904056,0.055,11.0,0.856,2.42e-05,5.76e-07,False,9.0,0.055,0.003,O95299,,,,,,,,,,,,,,
+WNK2,gene,ENSG00000165238,4e-16,-1.92,-0.040781057,0.057,12.0,0.843,0.0409,1.28e-08,True,11.0,0.057,0.017,Q9Y3S1,,,,,,,,,,,,,,
+CLU,gene,ENSG00000120885,1e-47,-0.918,0.139483174,0.131,13.0,0.841,0.0292,2.84e-10,False,10.0,0.036,0.131,P10909,,,,,,,,,,,,,,
+FARP2,gene,ENSG00000006607,1.9999999999999998e-42,-1.82,0.035717693,0.18,14.0,0.84,0.0036,0.016924012,False,12.0,0.18,0.001,O94887,,,,,,,,,,,,,,
+NUMA1,gene,ENSG00000137497,1e-14,-2.94,0.035862094,0.008,15.0,0.835,0.00474,0.004392056,False,15.0,0.008,0.005,Q14980,,,,,,,,,,,,,,
+APP,gene,ENSG00000142192,2e-14,-0.995,0.736060905,,19.0,0.829,0.00692,3.86e-38,False,,,,P05067,,,,,,,,,,,,,,
+GRIN2B,gene,ENSG00000273079,3e-06,-1.62,-0.044033838,,358.0,0.596,0.000187,7.8e-05,True,,,,Q13224,,,,,,,,,,,,,,
+SORL1,gene,ENSG00000137642,1e-22,1.33,0.002041456,,385.0,0.587,0.00743,1.0,True,,,,Q92673,,,,,,,,,,,,,,
+FERMT2,gene,ENSG00000073712,8e-16,0.568,-0.029575811,,403.0,0.579,0.246,0.032191545,False,,,,Q96AC1,,,,,,,,,,,,,,
+ACHE,gene,ENSG00000087085,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dementia,phenotype,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Memory impairment,phenotype,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cognitive impairment,phenotype,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cerebral atrophy,phenotype,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Neurofibrillary tangles,phenotype,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Aicardi-Goutieres syndrome,disease,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+JAK1,gene,ENSG00000162434,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Baricitinib,drug,,,,,,,,,,,,,,,,,,,approved (RA); investigational in AGS,,,,,,,,,
+Amyloid fiber formation,pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Plasma lipoprotein assembly, remodeling, and clearance",pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Regulation of Complement cascade,pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nucleotide catabolism,pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Interferon alpha/beta signaling,pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Trafficking of AMPA receptors,pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Activation of NMDA receptors and postsynaptic events,pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Neurotransmitter clearance,pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Complex I biogenesis,pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Collagen formation,pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RHO GTPase cycle,pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Endosomal sorting (GO grouping),pathway,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Donepezil,drug,,,,,,,,,,,,,,,,,,,approved,,,,,,,,,
+Rivastigmine,drug,,,,,,,,,,,,,,,,,,,approved,,,,,,,,,
+Galantamine,drug,,,,,,,,,,,,,,,,,,,approved,,,,,,,,,
+Memantine,drug,,,,,,,,,,,,,,,,,,,approved,,,,,,,,,
+Lecanemab,drug,,,,,,,,,,,,,,,,,,,approved,,,,,,,,,
+Donanemab,drug,,,,,,,,,,,,,,,,,,,approved,,,,,,,,,
+Semorinemab,drug,,,,,,,,,,,,,,,,,,,investigational,,,,,,,,,
+rs11136000,variant,,9e-10,,,,,,,,,,,,,,,,,,-0.11,T,PGS000334 (Module 6),,,,,,
+rs11218343,variant,,1e-22,,,,,,,,,,,,,,,,,,0.21,T,PGS000334 (Module 6),,,,,,
+rs17125944,variant,,1e-15,,,,,,,,,,,,,,,,,,-0.11,T,PGS000334 (Module 6),,,,,,
+rs7412,variant,,4e-123,,,,,,,,,,,,,,,,,,-0.44,T,PGS000334 (Module 6),-8.55901050567627,,,,,
+rs429358,variant,,1e-295,,,,,,,,,,,,,,,,,,-1.13,T,PGS000334 (Module 6),7.207705497741699,,,,,
+PT01,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,67.3,e3/e3,48.5,EUR,-0.315
+PT02,patient,,,,,,,,,,,,,,,,,,,case,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,57.0,e3/e4,85.6,EUR,1.263
+PT03,patient,,,,,,,,,,,,,,,,,,,case,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,58.5,e3/e4,71.9,EUR,0.331
+PT04,patient,,,,,,,,,,,,,,,,,,,case,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,70.9,e2/e3,4.5,EUR,-1.261
+PT05,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,68.4,e3/e3,41.5,EUR,-0.415
+PT06,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,62.3,e3/e3,43.9,EUR,-0.386
+PT07,patient,,,,,,,,,,,,,,,,,,,case,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,59.4,e3/e4,86.9,AFR,1.335
+PT08,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,61.6,e2/e3,25.7,AFR,-0.659
+PT09,patient,,,,,,,,,,,,,,,,,,,case,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,67.3,e3/e3,47.0,AFR,-0.343
+PT10,patient,,,,,,,,,,,,,,,,,,,case,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,64.8,e3/e3,43.3,AFR,-0.401
+PT11,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,63.2,e3/e3,67.3,AFR,0.116
+PT12,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,69.0,e3/e4,94.4,AFR,1.751
+PT13,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,71.0,e2/e3,4.9,EAS,-1.247
+PT14,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,50.9,e3/e3,25.7,EAS,-0.659
+PT15,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,63.3,e3/e3,17.2,EAS,-0.817
+PT16,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,64.4,e3/e3,43.9,EAS,-0.386
+PT17,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,61.5,e3/e3,49.8,EAS,-0.286
+PT18,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,63.4,e2/e3,5.2,EAS,-1.232
+PT19,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,61.2,e3/e3,6.9,SAS,-1.146
+PT20,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,57.8,e3/e3,25.7,SAS,-0.659
+PT21,patient,,,,,,,,,,,,,,,,,,,case,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,69.8,e3/e3,20.5,SAS,-0.745
+PT22,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,73.3,e3/e3,17.2,SAS,-0.817
+PT23,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,45.7,e3/e3,30.9,SAS,-0.573
+PT24,patient,,,,,,,,,,,,,,,,,,,case,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,58.7,e3/e3,36.6,SAS,-0.487
+PT25,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,51.7,e3/e3,56.8,AMR,-0.157
+PT26,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,64.2,e3/e4,82.9,AMR,1.134
+PT27,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,62.8,e3/e3,39.4,AMR,-0.444
+PT28,patient,,,,,,,,,,,,,,,,,,,control,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,51.7,e3/e3,51.5,AMR,-0.257
+PT29,patient,,,,,,,,,,,,,,,,,,,case,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,61.9,e2/e3,8.2,AMR,-1.103
+PT30,patient,,,,,,,,,,,,,,,,,,,case,,,1000 Genomes genotype (Module 6); SIMULATED phenotype,,72.3,e3/e4,72.5,AMR,0.359
