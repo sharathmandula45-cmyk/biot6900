@@ -1,0 +1,95 @@
+TARGET: ERBB2
+
+== PART 1 ==
+cells after QC: 18388 | donors: 10
+assays:
+ assay
+10x 3' v3    12635
+10x 3' v2     3753
+10x 5' v2     2000
+broad cell types:
+ cell_type_broad
+Epithelial/Tumor    8678
+Other               2976
+T                   2354
+Endothelial         1431
+Macrophage          1189
+Fibroblast          1072
+B                    529
+Monocyte              73
+NK                    50
+DC                    36
+integration scores:
+                 batch_silhouette (lower=better)  bio_silhouette (higher=better)
+method                                                                         
+No integration                            0.095                          -0.016
+Harmony                                  -0.082                           0.006
+scVI                                     -0.060                           0.012
+target by cell type:
+                   mean_expr  pct_expressing  n_cells
+cell_type                                           
+Epithelial/Tumor      0.633          36.356     8678
+NK                    0.258          10.000       50
+DC                    0.217          13.889       36
+Other                 0.192          17.070     2976
+B                     0.134           7.183      529
+Fibroblast            0.112           9.608     1072
+T                     0.056           2.549     2354
+Macrophage            0.048           3.028     1189
+Endothelial           0.042           3.843     1431
+Monocyte              0.000           0.000       73
+
+== PART 2 ==
+spots: 3798
+domain signatures:
+          tumor_epithelial  stroma  immune  n_spots     likely_region
+cluster                                                             
+0                   1.258   0.716   1.559      727            immune
+1                   0.941   1.232   1.842      695            immune
+2                   1.361   0.652   0.889      467  tumor_epithelial
+3                   1.299   0.172   1.179      409  tumor_epithelial
+4                   1.493   0.338   0.826      403  tumor_epithelial
+5                   1.335   0.111   1.326      373  tumor_epithelial
+6                   1.285   0.004   0.851      361  tumor_epithelial
+7                   1.229   0.488   1.419      202            immune
+8                   1.426   0.244   1.057      161  tumor_epithelial
+Moran's I top 15:
+                 I  pval_norm
+MGP      0.868504        0.0
+MALAT1   0.762550        0.0
+CRISP3   0.726334        0.0
+CPB1     0.711023        0.0
+IGHG3    0.703817        0.0
+IGLC2    0.700306        0.0
+IGKC     0.680696        0.0
+ALB      0.667866        0.0
+IGHG1    0.635266        0.0
+IGHG4    0.631525        0.0
+CXCL14   0.620824        0.0
+SLITRK6  0.617545        0.0
+S100G    0.615834        0.0
+APOE     0.610585        0.0
+C3       0.609535        0.0
+nhood enrichment z-scores:
+       0     1     2     3     4     5     6     7     8
+0  49.6   8.4 -23.7 -16.8 -21.4 -12.0 -16.0  -9.7  -7.8
+1   8.4  57.0 -21.9 -17.9 -20.0 -17.5 -16.8  -9.1 -10.3
+2 -23.7 -21.9  89.7 -18.5 -17.4 -18.3 -18.1 -12.5 -11.3
+3 -16.8 -17.9 -18.5  88.0 -17.5 -16.3 -13.6  -7.5  -9.6
+4 -21.4 -20.0 -17.4 -17.5  99.5 -16.2 -16.5  -8.8 -10.6
+5 -12.0 -17.5 -18.3 -16.3 -16.2  88.4 -15.8 -11.0  -4.9
+6 -16.0 -16.8 -18.1 -13.6 -16.5 -15.8  86.7  -9.6 -10.1
+7  -9.7  -9.1 -12.5  -7.5  -8.8 -11.0  -9.6  79.4  -7.3
+8  -7.8 -10.3 -11.3  -9.6 -10.6  -4.9 -10.1  -7.3  86.7
+target by domain:
+           mean  <lambda_0>
+cluster                   
+0        1.217      80.330
+1        0.978      83.453
+2        1.355      99.143
+3        1.381      97.311
+4        1.640      99.504
+5        1.650      99.464
+6        1.316      96.122
+7        1.411      96.535
+8        1.534     100.000
